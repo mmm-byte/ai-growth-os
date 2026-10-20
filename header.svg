@@ -96,9 +96,9 @@
   <!-- Core Ambient Glow -->
   <rect width="100%" height="100%" fill="url(#coreGlow)" />
 
-  <!-- The Mathematics of LLMs (Transformer Attention Equation) -->
+  <!-- The Mathematics of LLMs (Transformer Attention Equation - ASCII Safe) -->
   <text x="30" y="40" class="math">Architecture: Multi-LLM Judge Consensus</text>
-  <text x="30" y="60" class="math">Attention(Q, K, V) = softmax(QKᵀ / √dₖ)V</text>
+  <text x="30" y="60" class="math">Attention(Q, K, V) = softmax(Q * K^T / sqrt(d_k)) * V</text>
   <text x="820" y="320" class="math">Context_Window_Compressed = TRUE</text>
   <text x="820" y="335" class="math">Runtime_Environment: PRODUCTION</text>
 
@@ -107,11 +107,11 @@
   <use href="#wave2" />
   <use href="#wave3" />
 
-  <!-- THE MAGIC TRICK: Text Flowing ALONG the morphing waves -->
+  <!-- THE MAGIC TRICK: Text Flowing ALONG the morphing waves (No Angle Brackets) -->
   <text class="text-stream">
     <textPath href="#wave1" startOffset="-10%">
       <animate attributeName="startOffset" from="-50%" to="100%" dur="20s" repeatCount="indefinite" />
-      MEDICAL AI >>> MULTI-MODEL CONSENSUS >>> LLM EVALUATION >>> RAG PIPELINES >>> SENTINEL SECURITY
+      MEDICAL AI // MULTI-MODEL CONSENSUS // LLM EVALUATION // RAG PIPELINES // SENTINEL SECURITY
     </textPath>
   </text>
   
@@ -128,7 +128,6 @@
   <circle cx="500" cy="150" r="1.5" fill="#ffffff" class="particle" style="animation-delay: 2.5s;" />
 
   <!-- === THE MASTER TYPOGRAPHY === -->
-  <!-- Combining Ultra-Light and Ultra-Bold weights for high-end aesthetic -->
   <g transform="translate(500, 160)" text-anchor="middle">
     <text y="0">
       <tspan class="name-bold" fill="url(#titanium)">MAHINDRA</tspan>
@@ -138,10 +137,11 @@
     <!-- A surgical, minimalist divider line -->
     <rect x="-150" y="25" width="300" height="1" fill="#334155" />
     
+    <!-- Brackets instead of arrows to ensure XML parser safety -->
     <text y="50" class="math" fill="#00E5FF" font-size="12px" letter-spacing="4px">
-      < AI ENGINEER /> 
+      [ AI ENGINEER ] 
       <tspan fill="#475569">|</tspan> 
-      < FRONTEND ARCHITECT />
+      [ FRONTEND ARCHITECT ]
     </text>
   </g>
 
