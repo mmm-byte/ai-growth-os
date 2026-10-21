@@ -46,10 +46,23 @@
     </style>
 
     <!-- Premium Film Grain Noise Filter -->
+    <!-- Emits noise only: feTurbulence is the source graphic, so no grey sheet
+         is painted over the artwork. Paired with a low opacity on the overlay. -->
     <filter id="grain" x="0" y="0" width="100%" height="100%">
       <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
-      <feColorMatrix type="matrix" values="1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 0.12 0" in="noise" result="coloredNoise" />
-      <feBlend in="SourceGraphic" in2="coloredNoise" mode="screen" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 0.5 0" in="noise" result="coloredNoise" />
+    </filter>
+
+    <!-- Real SVG blur filters: filter="blur(Npx)" is a CSS filter function and
+         is ignored when the SVG is loaded as an <img>. -->
+    <filter id="soft50" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="50" />
+    </filter>
+    <filter id="soft60" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+    <filter id="soft70" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="70" />
     </filter>
 
     <!-- The Typography Mask: White reveals, Black hides -->
@@ -76,11 +89,11 @@
     <rect width="100%" height="100%" fill="#1a1a1a" /> 
     
     <!-- Animated Gradients (Vercel/Linear color palette) -->
-    <circle cx="250" cy="150" r="200" fill="#7c3aed" class="blob1" filter="blur(60px)" opacity="0.9" />
-    <circle cx="750" cy="150" r="250" fill="#3b82f6" class="blob2" filter="blur(70px)" opacity="0.9" />
-    <circle cx="500" cy="300" r="180" fill="#ec4899" class="blob3" filter="blur(60px)" opacity="0.8" />
-    <circle cx="500" cy="0" r="200" fill="#06b6d4" class="blob4" filter="blur(70px)" opacity="0.9" />
-    <circle cx="100" cy="250" r="150" fill="#f59e0b" class="blob2" filter="blur(50px)" opacity="0.6" />
+    <circle cx="250" cy="150" r="200" fill="#7c3aed" class="blob1" filter="url(#soft60)" opacity="0.9" />
+    <circle cx="750" cy="150" r="250" fill="#3b82f6" class="blob2" filter="url(#soft70)" opacity="0.9" />
+    <circle cx="500" cy="300" r="180" fill="#ec4899" class="blob3" filter="url(#soft60)" opacity="0.8" />
+    <circle cx="500" cy="0" r="200" fill="#06b6d4" class="blob4" filter="url(#soft70)" opacity="0.9" />
+    <circle cx="100" cy="250" r="150" fill="#f59e0b" class="blob2" filter="url(#soft50)" opacity="0.6" />
   </g>
 
   <!-- Razor-thin stroke to define the letters against the dark background -->
@@ -92,6 +105,7 @@
     &lt; <tspan class="highlight">AI ENGINEER</tspan> /&gt; — &lt; <tspan class="highlight">FRONTEND ARCHITECT</tspan> /&gt;
   </text>
 
-  <!-- Overarching film grain applied to the whole SVG -->
-  <rect width="100%" height="100%" style="pointer-events:none;" filter="url(#grain)" opacity="1" />
+  <!-- Film grain overlay. blend-mode keeps the noise subtle instead of painting
+       an opaque grey sheet over the name (this was hiding the whole artwork). -->
+  <rect width="100%" height="100%" style="pointer-events:none;mix-blend-mode:overlay;" filter="url(#grain)" opacity="0.06" />
 </svg>
