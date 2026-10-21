@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800" width="100%" height="auto">
+  <defs>
+    <style>
+      @keyframes slideIn { 0% { stroke-dashoffset: 1000; } 100% { stroke-dashoffset: 0; } }
+      @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+      @keyframes wave { 0% { d: path('M0,400 Q300,350 600,400 T1200,400'); } 50% { d: path('M0,400 Q300,450 600,400 T1200,400'); } 100% { d: path('M0,400 Q300,350 600,400 T1200,400'); } }
+      @keyframes float { 0%, 100% { transform: translateY(-5px); } 50% { transform: translateY(5px); } }
+      .bar-animate { animation: slideIn 2s ease-out forwards; }
+      .text-fade { animation: fadeIn 1.5s ease-out forwards; }
+      .floating { animation: float 2s ease-in-out infinite; }
+    </style>
+    
+    <linearGradient id="barGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00e5ff"/>
+      <stop offset="100%" style="stop-color:#0078d4"/>
+    </linearGradient>
+    
+    <linearGradient id="barGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d966"/>
+      <stop offset="100%" style="stop-color:#00e5ff"/>
+    </linearGradient>
+    
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#001d3d;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bgGrad)"/>
+  
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid2" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(0,229,255,0.03)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#grid2)"/>
+  
+  <!-- Title -->
+  <text x="600" y="50" font-family="monospace" font-size="36" font-weight="bold" fill="#00e5ff" text-anchor="middle" class="text-fade">
+    EXPERTISE MATRIX
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="80" font-family="monospace" font-size="14" fill="#8b949e" text-anchor="middle" class="text-fade" style="animation-delay: 0.2s">
+    Professional Competency Distribution
+  </text>
+  
+  <!-- Horizontal bar chart section -->
+  <g>
+    <!-- Title -->
+    <text x="100" y="130" font-family="monospace" font-size="14" fill="#00e5ff" font-weight="bold">
+      Technical Skills
+    </text>
+    
+    <!-- AI/ML - 99% -->
+    <text x="100" y="170" font-family="monospace" font-size="12" fill="#8b949e">AI/ML Engineering</text>
+    <rect x="350" y="160" width="495" height="15" fill="rgba(0,229,255,0.1)" rx="7"/>
+    <rect x="350" y="160" width="495" height="15" fill="url(#barGrad1)" rx="7" class="bar-animate" style="animation-delay: 0.1s; stroke-dasharray: 1000"/>
+    <text x="860" y="172" font-family="monospace" font-size="12" fill="#00e5ff" font-weight="bold">99%</text>
+    
+    <!-- Cloud Architecture - 95% -->
+    <text x="100" y="210" font-family="monospace" font-size="12" fill="#8b949e">Cloud Architecture</text>
+    <rect x="350" y="200" width="475" height="15" fill="rgba(0,229,255,0.1)" rx="7"/>
+    <rect x="350" y="200" width="475" height="15" fill="url(#barGrad2)" rx="7" class="bar-animate" style="animation-delay: 0.2s; stroke-dasharray: 1000"/>
+    <text x="860" y="212" font-family="monospace" font-size="12" fill="#00e5ff" font-weight="bold">95%</text>
+    
+    <!-- Full-Stack Development - 92% -->
+    <text x="100" y="250" font-family="monospace" font-size="12" fill="#8b949e">Full-Stack Development</text>
+    <rect x="350" y="240" width="460" height="15" fill="rgba(0,229,255,0.1)" rx="7"/>
+    <rect x="350" y="240" width="460" height="15" fill="url(#barGrad1)" rx="7" class="bar-animate" style="animation-delay: 0.3s; stroke-dasharray: 1000"/>
+    <text x="860" y="252" font-family="monospace" font-size="12" fill="#00e5ff" font-weight="bold">92%</text>
+    
+    <!-- DevOps & Infrastructure - 91% -->
+    <text x="100" y="290" font-family="monospace" font-size="12" fill="#8b949e">DevOps & Infrastructure</text>
+    <rect x="350" y="280" width="455" height="15" fill="rgba(0,229,255,0.1)" rx="7"/>
+    <rect x="350" y="280" width="455" height="15" fill="url(#barGrad2)" rx="7" class="bar-animate" style="animation-delay: 0.4s; stroke-dasharray: 1000"/>
+    <text x="860" y="292" font-family="monospace" font-size="12" fill="#00e5ff" font-weight="bold">91%</text>
+    
+    <!-- Design & UX - 88% -->
+    <text x="100" y="330" font-family="monospace" font-size="12" fill="#8b949e">Design & UX Systems</text>
+    <rect x="350" y="320" width="440" height="15" fill="rgba(0,229,255,0.1)" rx="7"/>
+    <rect x="350" y="320" width="440" height="15" fill="url(#barGrad1)" rx="7" class="bar-animate" style="animation-delay: 0.5s; stroke-dasharray: 1000"/>
+    <text x="860" y="332" font-family="monospace" font-size="12" fill="#00e5ff" font-weight="bold">88%</text>
+    
+    <!-- Data Engineering - 90% -->
+    <text x="100" y="370" font-family="monospace" font-size="12" fill="#8b949e">Data Engineering</text>
+    <rect x="350" y="360" width="450" height="15" fill="rgba(0,229,255,0.1)" rx="7"/>
+    <rect x="350" y="360" width="450" height="15" fill="url(#barGrad2)" rx="7" class="bar-animate" style="animation-delay: 0.6s; stroke-dasharray: 1000"/>
+    <text x="860" y="372" font-family="monospace" font-size="12" fill="#00e5ff" font-weight="bold">90%</text>
+  </g>
+  
+  <!-- Experience timeline section -->
+  <g>
+    <!-- Title -->
+    <text x="100" y="450" font-family="monospace" font-size="14" fill="#00e5ff" font-weight="bold">
+      Experience Overview
+    </text>
+    
+    <!-- Years at companies -->
+    <g transform="translate(100, 490)">
+      <!-- Secure Spot -->
+      <rect x="0" y="0" width="120" height="60" fill="rgba(0,229,255,0.08)" stroke="#00e5ff" stroke-width="1" rx="5"/>
+      <text x="60" y="20" font-family="monospace" font-size="11" font-weight="bold" fill="#00e5ff" text-anchor="middle">Secure Spot</text>
+      <text x="60" y="35" font-family="monospace" font-size="9" fill="#8b949e" text-anchor="middle">SaaS Platforms</text>
+      <text x="60" y="48" font-family="monospace" font-size="8" fill="#8b949e" text-anchor="middle">Present</text>
+      
+      <!-- LabGenie -->
+      <rect x="160" y="0" width="120" height="60" fill="rgba(0,229,255,0.08)" stroke="#00e5ff" stroke-width="1" rx="5"/>
+      <text x="220" y="20" font-family="monospace" font-size="11" font-weight="bold" fill="#00e5ff" text-anchor="middle">LabGenie</text>
+      <text x="220" y="35" font-family="monospace" font-size="9" fill="#8b949e" text-anchor="middle">Medical AI</text>
+      <text x="220" y="48" font-family="monospace" font-size="8" fill="#8b949e" text-anchor="middle">Research</text>
+      
+      <!-- Eleviant -->
+      <rect x="320" y="0" width="120" height="60" fill="rgba(0,229,255,0.08)" stroke="#00e5ff" stroke-width="1" rx="5"/>
+      <text x="380" y="20" font-family="monospace" font-size="11" font-weight="bold" fill="#00e5ff" text-anchor="middle">Eleviant</text>
+      <text x="380" y="35" font-family="monospace" font-size="9" fill="#8b949e" text-anchor="middle">AI Internship</text>
+      <text x="380" y="48" font-family="monospace" font-size="8" fill="#8b949e" text-anchor="middle">2025</text>
+      
+      <!-- Hexagon -->
+      <rect x="480" y="0" width="120" height="60" fill="rgba(0,229,255,0.08)" stroke="#00e5ff" stroke-width="1" rx="5"/>
+      <text x="540" y="20" font-family="monospace" font-size="11" font-weight="bold" fill="#00e5ff" text-anchor="middle">Hexagon</text>
+      <text x="540" y="35" font-family="monospace" font-size="9" fill="#8b949e" text-anchor="middle">PLM Engineer</text>
+      <text x="540" y="48" font-family="monospace" font-size="8" fill="#8b949e" text-anchor="middle">★ Star Award</text>
+    </g>
+  </g>
+  
+  <!-- Publications & Awards section -->
+  <g>
+    <text x="100" y="630" font-family="monospace" font-size="14" fill="#00e5ff" font-weight="bold">
+      Research & Recognition
+    </text>
+    
+    <!-- Springer publication -->
+    <g transform="translate(100, 660)">
+      <rect x="0" y="0" width="250" height="80" fill="rgba(0,229,255,0.05)" stroke="#00e5ff" stroke-width="1" rx="5"/>
+      <text x="12" y="20" font-family="monospace" font-size="12" font-weight="bold" fill="#00d966">✓ Springer Publication</text>
+      <text x="12" y="38" font-family="monospace" font-size="10" fill="#8b949e">Autonomous Campus Garbage</text>
+      <text x="12" y="54" font-family="monospace" font-size="10" fill="#8b949e">Management System</text>
+      <text x="12" y="70" font-family="monospace" font-size="9" fill="#00e5ff">AEOTIT - Advanced Engineering</text>
+    </g>
+    
+    <!-- IEEE publication -->
+    <g transform="translate(400, 660)">
+      <rect x="0" y="0" width="250" height="80" fill="rgba(0,229,255,0.05)" stroke="#00e5ff" stroke-width="1" rx="5"/>
+      <text x="12" y="20" font-family="monospace" font-size="12" font-weight="bold" fill="#00d966">✓ IEEE HealthCom</text>
+      <text x="12" y="38" font-family="monospace" font-size="10" fill="#8b949e">HIPAA-Compliant Medical AI</text>
+      <text x="12" y="54" font-family="monospace" font-size="10" fill="#8b949e">for Patient-Doctor Communication</text>
+      <text x="12" y="70" font-family="monospace" font-size="9" fill="#00e5ff">Research Publication</text>
+    </g>
+    
+    <!-- Star Team Award -->
+    <g transform="translate(700, 660)">
+      <rect x="0" y="0" width="250" height="80" fill="rgba(0,229,255,0.05)" stroke="#00e5ff" stroke-width="1" rx="5"/>
+      <text x="12" y="20" font-family="monospace" font-size="12" font-weight="bold" fill="#00d966">✓ Star Team Award</text>
+      <text x="12" y="38" font-family="monospace" font-size="10" fill="#8b949e">Hexagon Software</text>
+      <text x="12" y="54" font-family="monospace" font-size="10" fill="#8b949e">Enterprise PLM Integration</text>
+      <text x="12" y="70" font-family="monospace" font-size="9" fill="#00e5ff">Recognized Excellence</text>
+    </g>
+  </g>
+  
+  <!-- Footer stats -->
+  <g opacity="0.6">
+    <line x1="100" y1="770" x2="1100" y2="770" stroke="#00e5ff" stroke-width="1"/>
+    <text x="250" y="795" font-family="monospace" font-size="10" fill="#8b949e">8 AWS Labs</text>
+    <text x="450" y="795" font-family="monospace" font-size="10" fill="#8b949e">6 Azure Labs</text>
+    <text x="650" y="795" font-family="monospace" font-size="10" fill="#8b949e">72+ Exercises</text>
+    <text x="850" y="795" font-family="monospace" font-size="10" fill="#8b949e">Production Systems</text>
+  </g>
+</svg>
