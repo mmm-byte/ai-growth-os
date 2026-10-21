@@ -1,207 +1,221 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/mmm-byte/mmm-byte/main/header-hero.svg" alt="Mahindra Guptha Kotha — AI Engineer" width="100%" />
+
 # Mahindra Guptha Kotha
 
-**AI/ML Engineer | Full-Stack Cloud Architect | LLM & Production Systems**
+**AI/ML Engineer · Full-Stack & Cloud Architect · LLM Systems**
 
-[LinkedIn](https://www.linkedin.com/in/mahindra-guptha-kotha/) | [Email](mailto:mahikotha22@gmail.com) | [Dallas, TX](https://www.google.com/maps/place/Dallas,+TX/)
-
----
+[LinkedIn](https://www.linkedin.com/in/mahindra-guptha-kotha/) · [Email](mailto:mahikotha22@gmail.com) · Dallas, TX · Open to AI/ML & platform roles
 
 </div>
 
-## 👨‍💻 About Me
+---
 
-I architect production-grade systems at the intersection of AI, cloud infrastructure, and full-stack engineering. My focus: building autonomous agents, privacy-preserving ML pipelines, and enterprise-scale cloud platforms that actually work.
+## 👋 About
 
-Currently at **Secure Spot** engineering full-stack SaaS platforms. Previously, I've built HIPAA-compliant AI tools, autonomous robotics systems (published in Springer), and enterprise cloud solutions handling 3D model ingestion and complex PLM workflows.
+I'm a full-stack engineer and applied ML researcher working across the entire path from model to production: research prototypes, LLM evaluation infrastructure, autonomous agent systems, and the cloud and database layers that keep them running.
 
-**Education:** M.S. Computer Science (AI/ML) - Southern Methodist University | B.Tech Mechanical Engineering - Full Academic Scholar
+Currently building AI agents and data platforms in Dallas, TX. Previously: HIPAA-compliant clinical AI at SMU (published, IEEE HealthCom), enterprise PLM integration at Hexagon (Star Team Award), and cloud architecture work across AWS and Azure.
+
+**Education** — M.S. Computer Science (AI/ML), Southern Methodist University · B.Tech Mechanical Engineering, R.V.R. & J.C. College of Engineering (Full Academic Scholar)
+
+**What I'm looking for** — AI/ML engineering roles touching autonomous agents, LLM safety, or production ML infrastructure. Also open to cloud architecture and full-stack platform work.
 
 ---
 
-## 🎯 Core Expertise
+## 🎯 What I Work On
 
-### AI & Machine Learning
-- **LLM Frameworks**: LangChain, Ollama, DeepEval, RAG architectures, vector databases (Pinecone, Milvus)
-- **Vision AI**: YOLO object detection, OpenCV, Playwright browser automation, fine-tuned vision models
-- **Autonomous Systems**: Multi-agent orchestration, reinforcement learning loops, self-healing execution layers
-- **Safety & Compliance**: Privacy pipelines, PHI scrubbing, hallucination detection, HIPAA-compliant data isolation
-
-### Cloud Architecture & Infrastructure
-- **Azure**: App Service, SQL Database, Cosmos DB, Storage, Networking, DevOps, LabGenie research platform
-- **AWS**: EC2, ECR, VPC, RDS, S3, load balancing, auto-scaling groups, infrastructure as code
-- **Kubernetes & Containerization**: Docker, multi-stage builds, deployment automation, CI/CD pipelines
-- **Infrastructure as Code**: Terraform modules, environment-specific configurations, state management
-
-### Full-Stack Development
-- **Languages**: Python, JavaScript/TypeScript, Java, C++, SQL, MATLAB
-- **Backend**: Node.js, Express, PostgreSQL, Redis, Snowflake, BullMQ, Socket.IO
-- **Frontend**: React, Next.js, Angular, Playwright for UI automation
-- **DevOps**: Git, CI/CD pipelines, Docker, Kubernetes, monitoring with Arize Phoenix
-
-### Data & Analytics
-- **Data Engineering**: ETL pipelines, real-time data processing, YOLO vehicle-tracking feeds
-- **Analytics**: PowerBI dashboards, data visualization, automated reporting
-- **Vector Databases**: Multi-database architectures, RAG pipelines, semantic search
+| Area | Detail |
+|---|---|
+| **LLM Systems** | Multi-model judge panels, consensus & agreement scoring, rubric-based evaluation, hallucination detection, prompt-injection guards, context compression |
+| **Agent Architecture** | Multi-agent orchestration, MCP tool servers, autonomous self-correcting loops, RL-style feedback, RAG pipelines |
+| **AI Safety & Compliance** | PHI-scrubbing pipelines, HIPAA data isolation, LLM-as-judge review, trust-boundary enforcement, audit logging |
+| **ML & Vision** | PyTorch, CNNs, YOLO object detection, OpenCV, image/video classification, model compression (ternary 1.58-bit) |
+| **Backend & Data** | Python, FastAPI, Node.js, PostgreSQL, MongoDB, Redis, BullMQ, ETL pipelines, vector databases |
+| **Frontend** | TypeScript, React, Next.js, Angular, Electron, Tailwind |
+| **Cloud & Infra** | AWS (EC2, S3, VPC, RDS), Azure (App Service, SQL, Networking), Docker, Kubernetes, Terraform, CI/CD |
+| **Observability** | Arize Phoenix, OpenTelemetry, Dynatrace, LLM trace analysis |
 
 ---
 
-## 🚀 Featured Projects
-
-### [Secure Spot](https://www.securespotnyc.com/) — SaaS Platform Architecture
-**June 2026 – Present | Software Engineer**
-
-Built full-stack infrastructure for two SaaS platforms handling real-time occupancy and dynamic pricing:
-
-- **Full-Stack Architecture**: Next.js frontend, Node.js backend, Java microservices, PostgreSQL database
-- **AI Agent Framework**: Autonomous agents using Model Context Protocol (MCP) and RAG; RL feedback loops for continuous self-correction
-- **Real-Time Data Pipelines**: High-throughput Redis + BullMQ processing YOLO vehicle-tracking feeds for instant occupancy updates
-- **AI Observability**: Hallucination detection comparing LLM reasoning traces to database logs; automatic operator alerts before data commits
-- **Tech Stack**: Next.js, Node.js, Java, PostgreSQL, Redis, Docker, MCP, LangChain
-
-### [LabGenie](https://www.labgenie.ai/) — HIPAA-Compliant Medical AI Research
-**August 2024 – May 2026 | Research Assistant, SMU | IEEE HealthCom Published**
-
-Built backend for clinical AI tool used in patient-doctor interactions with zero PHI leaks:
-
-- **Privacy Architecture**: RAG pipeline split across two isolated vector databases (public knowledge vs. patient records)
-- **Data Protection**: Privacy pipeline scrubbing PHI identifiers before LLM processing; personalized questions with zero risk
-- **AI Safety**: DeepEval LLM-as-judge automatically reviewing medical answers; hallucination blocking before UI
-- **UX Research**: Interactive visualizations for low-tech-literacy patients backed by AHRQ clinical grant
-- **Outcome**: Demonstrated measurable improvement in doctor-patient communication in usability tests
-
-### [Kairon](https://github.com/mmm-byte/Kairon) — Autonomous Pricing & Decision Intelligence
-**2026 | Personal Research Project**
-
-Autonomous decision engine orchestrating 8 specialized agents for financial markets:
-
-- **Multi-Agent Orchestration**: LangChain framework with 8 specialized agents ingesting GDELT and Yahoo Finance
-- **Self-Healing Execution**: Monitors live transactions; auto-reroutes on network failure; Half-Kelly position sizing
-- **Automated CI/CD**: 7-stage pipeline; build stage forces AI agent to debug and repair failing code before merges
-- **Closed-Loop Evaluation**: Arize Phoenix tracking agent reasoning traces; automatic prompt refinement from trade outcomes
-
-### [Autonomous Campus Garbage System](https://springer-aeotit.com/) — IoT & Robotics
-**2025 | Published in Springer's AEOTIT**
-
-End-to-end autonomous waste collection with Raspberry Pi + YOLO + robotic arm:
-
-- **Smart Hardware**: IoT-enabled dustbins broadcasting fill levels to central server
-- **Autonomous Navigation**: Raspberry Pi rover using OpenCV line-detection + YOLO bin identification
-- **Robotic Integration**: 3-joint MATLAB-controlled arm autonomously aligning, grabbing, emptying bins
-- **Research Publication**: Complete hardware architecture, CV methodology, system evaluation published
-
-### Hexagon PLM — Enterprise Integration & Analytics
-**March 2022 – July 2024 | Star Team Award**
-
-Engineered Python, Java, C++ pipelines ingesting 3D models and engineering docs into Azure PLM:
-
-- **Data Mapping**: Custom logic parsing equipment tag numbers from raw files; direct mapping to electrical specs
-- **Search Interface**: React + Node.js unified search indexing equipment IDs for 50+ engineering teams
-- **Analytics**: PowerBI dashboards for commercial operations; real-time visibility
-- **Data Migration**: SQL ETL migrations from scattered libraries to central database with Postman/Selenium validation
-
----
-
-## 🏆 Cloud Platforms & Portfolios
-
-### [AWS Cloud Computing Portfolio](https://github.com/mmm-byte/Cloud_Computing_AWS)
-**Complete coursework and production projects**
-
-- 8 hands-on labs: IAM, EC2, storage, networking, databases, auto-scaling, security, high-performance architectures
-- 603 PDF redactions removing sensitive data (account IDs, keys, emails)
-- Enterprise DevOps assessment: containerized microservices on EC2 behind ALB
-- Terraform modules with multi-region failover, backup strategies
-- **Technologies**: AWS CLI, Terraform, Docker Compose, Bash automation
-
-### [Azure Cloud Computing Portfolio](https://github.com/mmm-byte/Cloud_Computing_Azure)
-**Professional coursework and enterprise architecture**
-
-- 6 complete labs: fundamentals, VMs, storage, networking, databases, App Service
-- 72+ hands-on exercises with realistic commands and results
-- Enterprise architecture project with Terraform IaC (main.tf, variables, outputs, backend)
-- Deployment automation: deploy.sh, verify.sh, monitoring, rollback scripts
-- Full documentation: architecture diagrams, disaster recovery runbooks, deployment checklists
-- **Technologies**: Terraform, Azure CLI, PowerShell, Infrastructure as Code
-
----
-
-## 📊 Technical Proficiency
-
-| Category | Skills |
-|----------|--------|
-| **AI/ML** | PyTorch, RAG, LangChain, Ollama, DeepEval, OpenCV, YOLO, Vector DBs, LLM evaluation |
-| **Languages** | Python, JavaScript/TypeScript, Java, C++, SQL, MATLAB |
-| **Backend** | Node.js, Express, PostgreSQL, Redis, Snowflake, BullMQ, Socket.IO |
-| **Frontend** | React, Next.js, Angular, Playwright automation |
-| **Cloud** | Azure (App Service, SQL, Storage, Networking), AWS (EC2, RDS, S3, VPC) |
-| **Infrastructure** | Terraform, Docker, Kubernetes, CI/CD, Git |
-| **Data** | ETL pipelines, GDELT, Arize Phoenix, PowerBI dashboards |
-| **Tools** | Postman, Selenium, MATLAB, Raspberry Pi, IoT |
-
----
-
-## 🎓 Education & Certifications
-
-**M.S. Computer Science - AI/ML** | Southern Methodist University | August 2024 – May 2026  
-*Lyle Dean's Graduate Scholar*
-
-**B.Tech Mechanical Engineering** | R.V.R. & J.C. College of Engineering | June 2018 – March 2022  
-*Full Academic Scholar*
-
-**Certifications:**
-- Professional Data Engineer – Google Cloud Platform (GCP)
-- Cybersecurity Tools and Cyber Attacks – IBM (2023)
-- Microsoft Azure Fundamentals – Udemy (2023)
-
----
-
-## 📈 Key Achievements
-
-✅ **Published Research**: Autonomous Campus Garbage Management System in Springer's Advanced Engineering Optimization Through Intelligent Techniques
-
-✅ **Star Team Award**: Hexagon Software Implementation (recognized for building transformative PLM integration)
-
-✅ **HIPAA Compliance**: Built privacy-preserving medical AI processing patient data with zero PHI leaks
-
-✅ **Production Deployment**: Multi-agent frameworks deployed to Kubernetes with automated CI/CD security checks
-
-✅ **Performance**: 1000 concurrent users handled on auto-scaling infrastructure; <30 second DB failover RTO
-
-✅ **Cost Optimization**: 35% storage cost reduction through Azure lifecycle policies
-
-✅ **Research**: IEEE HealthCom published research on clinical AI usability and patient outcomes
-
----
-
-## 🔗 Connect & Collaborate
-
-I'm actively seeking opportunities in:
-- **AI/ML Engineering**: Autonomous agents, LLM safety, production systems
-- **Cloud Architecture**: Enterprise infrastructure, multi-cloud orchestration
-- **Full-Stack Development**: SaaS platforms, real-time systems
-
-📍 **Dallas, TX** | 🌐 **Open to Remote & Relocation**
-
-[LinkedIn](https://www.linkedin.com/in/mahindra-guptha-kotha/) | [GitHub](https://github.com/mmm-byte) | [Email](mailto:mahikotha22@gmail.com) | [Phone](tel:+12146034336)
-
----
-
-## 📚 Latest Repositories
-
-My pinned repositories showcase practical expertise:
-
-1. **[Cloud Computing AWS](https://github.com/mmm-byte/Cloud_Computing_AWS)** - 8 labs, 603 redacted PDFs, enterprise DevOps
-2. **[Cloud Computing Azure](https://github.com/mmm-byte/Cloud_Computing_Azure)** - 72+ exercises, Terraform IaC, enterprise architecture
-3. **[Kairon](https://github.com/mmm-byte/Kairon)** - Autonomous pricing agent with multi-agent orchestration
-4. **[LabGenie-Backend](https://github.com/mmm-byte/LabGenie-Backend)** - HIPAA-compliant medical AI
-
----
+## 🚀 Featured Work
 
 <div align="center">
 
-**"Code that thinks. Infrastructure that scales. Data that's safe."**
+<img src="https://raw.githubusercontent.com/mmm-byte/mmm-byte/main/dashboard.svg" alt="Expertise dashboard — skills, timeline, and achievements" width="100%" />
 
-*Last updated: October 2024*
+</div>
+
+### 🛡️ [SENTINEL](https://github.com/mmm-byte/SENTINEL) — Autonomous Database Immune System
+*Google Cloud Rapid Agent Hackathon 2026 · Gemini 2.0 Flash · Google ADK · MongoDB Atlas*
+
+An agent that detects schema drift in a live database and self-heals it. Built for a hackathon spanning **6 partner tracks** (MongoDB, Arize Phoenix, Dynatrace, Fivetran, GitLab, Elastic).
+
+The core design decision is **zero data destruction** — corrupt documents are quarantined with full metadata, never deleted — combined with **minimum blast radius**, relaxing only the specific field causing a violation rather than disabling the validator.
+
+What makes it non-trivial is the safety boundary. Every outbound JSON-RPC call passes through a trust-boundary proxy:
+
+```python
+class ArmorPolicy:
+    max_param_bytes: int = 64 * 1024          # hard payload cap
+    denylist_regex: List[Pattern] = field(default_factory=lambda: [
+        re.compile(r"ignore\s+(all\s+)?previous\s+instructions", re.IGNORECASE),
+        re.compile(r"disregard\s+(all\s+)?(prior|above)\s+(rules|instructions)", re.IGNORECASE),
+        re.compile(r"<\s*script\s*>", re.IGNORECASE),   # XSS in text fields
+    ])
+    allow_actions: Iterable[str] = field(default_factory=lambda: (
+        "query_topology", "search_logs", "collMod", "quarantine", "trigger_resync",
+    ))
+```
+
+It also **self-improves**: every 10 incidents it pulls traces from Arize, scores them with Gemini-as-judge, and writes improvement hints back — measurably better the longer it runs.
+
+### 🧪 [Multi-LLM Medical AI Judge](https://github.com/mmm-byte/Multi_LLM_Medical_AI_Judge) — LLM Evaluation Framework
+*Python · Multi-model consensus · Rubric-based scoring*
+
+A judge panel for clinical QA evaluation. Multiple independent models score the same answer against rubric criteria, and the panel's **inter-judge agreement is measured before any score is reported** — if the judges don't agree, no score is emitted.
+
+```python
+def compute_agr(judge_scores, kappa):
+    """Eq.1 — pairwise agreement in [0,1].
+    judge_scores: {judge_id: {criterion_id: raw_score}}
+    kappa:        {criterion_id: max_possible_score}
+    """
+    total = agree = 0.0
+    for ji, jj in combinations(judge_scores.keys(), 2):
+        si, sj = judge_scores[ji], judge_scores[jj]
+        for k, kap in kappa.items():
+            if k not in si or k not in sj or si[k] is None or sj[k] is None:
+                continue
+            agree += 1.0 - abs(si[k] - sj[k]) / kap
+            total += 1.0
+    return 0.0 if total == 0.0 else agree / total
+```
+
+Four routing levels — `full_agree` (≥0.95), `majority_agree` (≥0.75), `split`, `disagree` — plus outlier judge detection that flags whichever model has drifted most from consensus. Used in HIPAA-compliant clinical AI where a hallucinated answer has real clinical consequence.
+
+### ⚙️ [vibeforge](https://github.com/mmm-byte/vibeforge) — AI Development Pipeline
+*Python · PyPI · Quality-gated orchestration*
+
+A 7-stage pipeline (`clarify → architect → scaffold → build → harden → document → ship`) where **each stage is gated by a quality check** that can fail the run. State persists to disk so interrupted runs resume rather than restart.
+
+```python
+class Pipeline:
+    STAGES: list[str] = [
+        "clarify", "architect", "scaffold", "build", "harden", "document", "ship",
+    ]
+
+    def resume(self) -> None:
+        """Resume an interrupted run from .vibeforge/state.json"""
+```
+
+### 🔍 [git-why](https://github.com/mmm-byte/git-why) — AI-Powered Code Reasoning
+*Python · PyPI · Ollama · Local-first*
+
+Understands the reasoning behind a change — not just the diff, but the why. Shells out to `git` directly, bounds diff output to prevent token overflow, and runs fully locally against Ollama.
+
+```python
+def analyze_range(self, revision_range="HEAD~1..HEAD", max_diff_lines=500, file_filter=None) -> AnalysisContext:
+    """max_diff_lines caps output to prevent token overflow; file_filter accepts globs like '*.py'"""
+```
+
+### 📈 [kairon](https://github.com/mmm-byte/kairon) — Multi-Agent Financial Intelligence
+*Python · Streamlit · LangChain · GDELT + Yahoo Finance · Zero required API keys*
+
+8 specialized agents (Technical, Fundamental, News, Macro, Cross-Market, Bull, Bear, Trader) with full data fallback chains, so it runs immediately with no keys and degrades gracefully. Includes a 7-type cost engine (broker, spread, slippage, FX, gas, wire, tax), Half-Kelly position sizing, and a knowledge base that learns from past outcomes.
+
+### 📚 [context-engineering-guide](https://github.com/mmm-byte/context-engineering-guide)
+*The practical guide to context engineering — RAG, agents, MCP, compression — with working code.*
+
+### 🔬 Other Projects
+
+| Project | What it is |
+|---|---|
+| [bitnet-1.58-pattern-compression](https://github.com/mmm-byte/bitnet-1.58-pattern-compression) | Ternary compression research for 1.58-bit models — motif dictionaries, cross-layer attention tying, sparse pattern collapse |
+| [Liquid_time_constant_network](https://github.com/mmm-byte/Liquid_time_constant_network) | LTC neural networks — continuous-time recurrent architectures |
+| [ElephantVoice](https://github.com/mmm-byte/ElephantVoice) | Audio/voice AI processing pipeline |
+| [Fake_News_detection_with_Python](https://github.com/mmm-byte/Fake_News_detection_with_Python) | NLP fake-news classifier |
+| [Securing_data_using_CNN](https://github.com/mmm-byte/Securing_data_using_CNN) | CNN-based data security |
+| [CNN_Video_Surveillance](https://github.com/mmm-byte/CNN_Video_Surveillance) | Real-time video surveillance with CNNs |
+| [An_Intelligent_Garbage_Automation_System](https://github.com/mmm-byte/An_Intelligent_Garbage_Automation_System) | IoT autonomous waste collection — published in Springer's AEOTIT |
+| [Streamlits_Projects](https://github.com/mmm-byte/Streamlits_Projects) | Interactive ML dashboards |
+| [PythonProjects](https://github.com/mmm-byte/PythonProjects) | Collection of practical Python projects |
+
+---
+
+## ☁️ Cloud Architecture Work
+
+**[AWS Cloud Computing Portfolio](https://github.com/mmm-byte/Cloud_Computing_AWS)** — 8 hands-on labs (IAM, EC2, storage, networking, databases, auto-scaling, security, high-performance architectures), Terraform modules with multi-region failover, containerized microservices on EC2 behind an ALB.
+
+**[Azure Cloud Computing Portfolio](https://github.com/mmm-byte/Cloud_Computing_Azure)** — 6 labs (fundamentals, VMs, storage, networking, databases, App Service) with an enterprise Terraform project: `main.tf`, `variables.tf`, `outputs.tf`, remote state, plus `deploy.sh`, `verify.sh`, monitoring, and rollback scripts.
+
+**Hexagon PLM** — Enterprise integration (2022–2024, Star Team Award). Python/Java/C++ pipelines ingesting 3D models and engineering documentation into Azure PLM; React + Node.js unified search indexing equipment IDs for 50+ engineering teams; PowerBI analytics; SQL ETL migrations validated with Postman and Selenium.
+
+---
+
+## 🏆 Highlights
+
+- **Published** — Autonomous Campus Garbage Management System, Springer's *Advanced Engineering Optimization Through Intelligent Techniques*
+- **Published** — IEEE HealthCom, clinical AI usability and patient outcomes
+- **Star Team Award** — Hexagon PLM integration
+- **HIPAA compliance** — Privacy-preserving medical AI with PHI scrubbing and zero PHI leaks
+- **Self-improving AI** — SENTINEL refines its own detection strategy from production traces
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+**AI / ML**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+**Full-Stack**
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+**Cloud & Infra**
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=mmm-byte&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=6e40c9&text_color=c9d1d9" alt="GitHub stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mmm-byte&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top languages" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mmm-byte&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=6e40c9&fire=ff7b72&currStreakLabel=58a6ff" alt="Contribution streak" />
+</div>
+
+---
+
+## 📬 Get in Touch
+
+Open to AI/ML engineering, LLM safety, and cloud architecture roles — remote or relocation to Dallas.
+
+[LinkedIn](https://www.linkedin.com/in/mahindra-guptha-kotha/) · [GitHub](https://github.com/mmm-byte) · [Email](mailto:mahikotha22@gmail.com)
+
+<div align="center">
+
+**Code that thinks. Infrastructure that scales. Data that's safe.**
 
 </div>

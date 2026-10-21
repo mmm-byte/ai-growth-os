@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" width="100%" height="350">
+  <defs>
+    <style>
+      /* Massive, tight-tracked Swiss Typography */
+      .name { 
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+        font-size: 115px; 
+        font-weight: 900; 
+        text-anchor: middle; 
+        dominant-baseline: middle; 
+        letter-spacing: -4px; 
+      }
+      .role { 
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; 
+        font-size: 16px; 
+        font-weight: 400; 
+        fill: #8b949e; 
+        text-anchor: middle; 
+        letter-spacing: 6px; 
+      }
+      .highlight { fill: #ffffff; font-weight: 600; }
+      
+      /* Hardware-accelerated fluid keyframes */
+      @keyframes aurora1 { 
+        0% { transform: translate(0, 0) scale(1); } 
+        33% { transform: translate(150px, -50px) scale(1.2); } 
+        66% { transform: translate(-50px, 100px) scale(0.8); }
+        100% { transform: translate(0, 0) scale(1); } 
+      }
+      @keyframes aurora2 { 
+        0% { transform: translate(0, 0) scale(1.2); } 
+        33% { transform: translate(-150px, 50px) scale(0.9); } 
+        66% { transform: translate(100px, -50px) scale(1.3); }
+        100% { transform: translate(0, 0) scale(1.2); } 
+      }
+      @keyframes aurora3 { 
+        0% { transform: translate(0, 0) scale(0.8); } 
+        50% { transform: translate(50px, 150px) scale(1.4); } 
+        100% { transform: translate(0, 0) scale(0.8); } 
+      }
+      
+      .blob1 { animation: aurora1 15s infinite alternate ease-in-out; transform-origin: center; }
+      .blob2 { animation: aurora2 18s infinite alternate-reverse ease-in-out; transform-origin: center; }
+      .blob3 { animation: aurora3 12s infinite alternate ease-in-out; transform-origin: center; }
+      .blob4 { animation: aurora1 20s infinite alternate-reverse ease-in-out; transform-origin: center; }
+    </style>
+
+    <!-- Premium Film Grain Noise Filter -->
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 0.12 0" in="noise" result="coloredNoise" />
+      <feBlend in="SourceGraphic" in2="coloredNoise" mode="screen" />
+    </filter>
+
+    <!-- The Typography Mask: White reveals, Black hides -->
+    <mask id="textMask">
+      <rect width="100%" height="100%" fill="black" />
+      <!-- Multi-line name for maximum impact -->
+      <text x="500" y="120" class="name" fill="white">MAHINDRA</text>
+      <text x="500" y="220" class="name" fill="white">KOTHA</text>
+    </mask>
+
+    <!-- Subtle Background Grid -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" opacity="0.05" />
+    </pattern>
+  </defs>
+
+  <!-- Deep space background -->
+  <rect width="100%" height="100%" fill="#050505" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- The Fluid Aurora Universe (Only visible INSIDE your name) -->
+  <g mask="url(#textMask)">
+    <!-- Base text color just in case -->
+    <rect width="100%" height="100%" fill="#1a1a1a" /> 
+    
+    <!-- Animated Gradients (Vercel/Linear color palette) -->
+    <circle cx="250" cy="150" r="200" fill="#7c3aed" class="blob1" filter="blur(60px)" opacity="0.9" />
+    <circle cx="750" cy="150" r="250" fill="#3b82f6" class="blob2" filter="blur(70px)" opacity="0.9" />
+    <circle cx="500" cy="300" r="180" fill="#ec4899" class="blob3" filter="blur(60px)" opacity="0.8" />
+    <circle cx="500" cy="0" r="200" fill="#06b6d4" class="blob4" filter="blur(70px)" opacity="0.9" />
+    <circle cx="100" cy="250" r="150" fill="#f59e0b" class="blob2" filter="blur(50px)" opacity="0.6" />
+  </g>
+
+  <!-- Razor-thin stroke to define the letters against the dark background -->
+  <text x="500" y="120" class="name" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5">MAHINDRA</text>
+  <text x="500" y="220" class="name" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5">KOTHA</text>
+
+  <!-- Minimalist, architectural tagline -->
+  <text x="500" y="310" class="role">
+    &lt; <tspan class="highlight">AI ENGINEER</tspan> /&gt; — &lt; <tspan class="highlight">FRONTEND ARCHITECT</tspan> /&gt;
+  </text>
+
+  <!-- Overarching film grain applied to the whole SVG -->
+  <rect width="100%" height="100%" style="pointer-events:none;" filter="url(#grain)" opacity="1" />
+</svg>
