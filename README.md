@@ -103,6 +103,7 @@
 
 ### FULL-STACK PRODUCTS
 
+<sub><a href="https://github.com/mmm-byte/frontdash">FrontDash · restaurant ordering platform</a>　React · Spring Boot · MySQL · Vercel-ready frontend</sub><br>
 <sub><a href="https://github.com/mmm-byte/Hotel-discovery-frontend">Hotel discovery</a>　React · search, filters, hotel details, and room availability</sub><br>
 <sub><a href="https://github.com/mmm-byte/verita-ai">Trello workflow prototype</a>　Next.js · TypeScript · drag and drop · persistent board data</sub><br>
 
