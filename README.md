@@ -103,15 +103,16 @@
 
 ### FULL-STACK PRODUCTS
 
-<sub><a href="https://github.com/mmm-byte/frontdash">FrontDash · restaurant ordering platform</a>　React · Spring Boot · MySQL · Vercel-ready frontend</sub><br>
+<sub><a href="https://github.com/mmm-byte/frontdash">FrontDash · restaurant ordering platform</a>　·　<a href="https://frontdash-iota.vercel.app/">Live app ↗</a>　React · Spring Boot · MySQL</sub><br>
 <sub><a href="https://github.com/mmm-byte/Hotel-discovery-frontend">Hotel discovery</a>　React · search, filters, hotel details, and room availability</sub><br>
 <sub><a href="https://github.com/mmm-byte/verita-ai">Trello workflow prototype</a>　Next.js · TypeScript · drag and drop · persistent board data</sub><br>
 
 <br><br>
 
-### LIVE DEMOS
+### AI/ML &amp; FULL-STACK · LIVE
 
-<sub><a href="https://langchain-rag-trubrics-langsmith.vercel.app">RAG chat with feedback · Vercel ↗</a>　·　<a href="https://st-gsheets.streamlit.app/">Google Sheets connector · Streamlit ↗</a>　·　<a href="https://chatbot-template.streamlit.app/">Chatbot · Streamlit ↗</a></sub><br>
+<sub><strong>AI/ML</strong>　<a href="https://langchain-rag-trubrics-langsmith.vercel.app">RAG chat with feedback ↗</a>　·　<a href="https://chatbot-template.streamlit.app/">Chatbot ↗</a>　·　<a href="https://st-gsheets.streamlit.app/">Google Sheets connector ↗</a></sub><br>
+<sub><strong>FULL-STACK</strong>　<a href="https://frontdash-iota.vercel.app/">FrontDash · live Vercel app ↗</a>　React · Spring Boot · MySQL</sub><br>
 
 <br><br>
 
