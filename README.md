@@ -1,6 +1,8 @@
-# The 90-Day AI Playbook
+# AI Growth OS
 
-A static site showing how a 100-person company (worked example: a furniture maker) can move to AI-assisted work in 90 days. Includes a quote-journey demo, phased plan, use-case picker for five company types, and a revenue calculator.
+A static, interactive presentation of a repeatable 90-day operating system for helping a small company adopt AI, improve revenue, and make the change stick. Furniture is one worked example, not the limit of the method.
+
+The central argument is: start with measurable revenue or operating leaks, choose one workflow with the people who own it, prove the result with human approval, and scale only what earns trust. The site includes a universal method, phase-by-phase plan, industry/constraint diagnostic, value calculator, guardrails, scorecard, and a mapping of the approach to my experience.
 
 No build step, no dependencies. Files: `index.html`, `styles.css`, `app.js`, `vercel.json`.
 

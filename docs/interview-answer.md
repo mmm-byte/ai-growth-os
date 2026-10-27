@@ -1,11 +1,11 @@
-# Interview answer: "Lead a 100-person furniture company to AI so revenue grows"
+# Interview answer: "Lead a 100-person company into AI so revenue grows"
 
 ## 60-second spoken version
-"I'd start by finding where the company loses revenue, not by removing paper. In a furniture business that's usually slow quotes, re-typing orders between systems, and lead times that live in people's heads. So in the first 30 days I'd interview people at every level, follow one order from request to delivery, and write down three baseline numbers, like time to first quote and order error rate.
+"I'd start by finding where the company loses revenue or capacity, not by removing paper. In a furniture business that might be slow quotes, re-typing orders between systems, and lead times that live in people's heads; in another company it could be proposals, customer support, order entry, billing, or scheduling. In the first 30 days I'd interview people at every level, follow one workflow from request to outcome, and write down three baseline numbers.
 
-Then I'd pick one workflow, probably quoting, and pilot it with five to eight of the people who do it, with a human approving every output. I'd test it on 50 past quotes first. The paper step gets retired once the new way has held up for a few weeks, so going paperless is a result, not step one.
+Then I'd pick one high-impact workflow and pilot it with five to eight of the people who do it, with a human approving every output. For furniture that might be quoting; for a services firm it might be proposals or meeting follow-up. I'd test it on representative past cases first. The paper step gets retired once the new way has held up for a few weeks, so going paperless is a result, not step one.
 
-On people: the owner picks the one metric and uses the tools visibly, each department lead owns one workflow, and the people doing the work choose the pilot because it's the task they dislike most. A small AI council meets monthly. From day 60 to 90 I'd add two more workflows, train on people's real work, and keep a scorecard everyone can see. And the same plan repeats across companies, only the first workflow changes."
+On people: the owner picks the one metric and uses the tools visibly, each department lead owns one workflow, and the people doing the work choose the pilot because it's the task they dislike most. A small AI council meets monthly. From day 60 to 90 I'd add two more workflows, train on people's real work, and keep a scorecard everyone can see. And the same plan repeats across companies: the baseline, supervised pilot, guardrails, scorecard, and training stay consistent; only the first workflow, systems, and metric change."
 
 ## What to say about your first answer
 Keep it honest: "What I said first was the right instinct on people, looping in top and bottom. I'd add that I'd begin with revenue leaks and let paper removal follow."
