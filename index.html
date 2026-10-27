@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The 90-Day AI Playbook for a 100-Person Company</title>
+<meta name="description" content="A practical plan for moving a 100-person company to AI-assisted work in 90 days, shown on a furniture maker, with a use-case picker and a revenue calculator.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#top">The 90-Day AI Playbook</a>
+    <nav aria-label="Sections">
+      <a href="#plan">Plan</a>
+      <a href="#people">People</a>
+      <a href="#usecases">Use cases</a>
+      <a href="#calc">Calculator</a>
+      <a href="#guardrails">Guardrails</a>
+      <a href="#portfolio">Many companies</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero wrap" id="top">
+  <h1>A 100-person furniture company can be AI-assisted in 90 days, and the first thing to change is not the paper.</h1>
+  <p class="lede">The question was how to lead a small company through the move to AI so revenue grows. This is my answer, worked through on a furniture maker. Paper goes away as a result of fixing where money is lost, not as step one.</p>
+
+  <div class="journey" id="journey" aria-labelledby="j-title">
+    <div class="j-head">
+      <div>
+        <h2 id="j-title">One custom quote, start to finish</h2>
+        <p>A customer asks for a walnut dining table in a non-standard size. Same request, two ways of handling it.</p>
+      </div>
+      <div class="toggle" role="group" aria-label="Choose how the quote is handled">
+        <button type="button" data-mode="paper" aria-pressed="true">Today</button>
+        <button type="button" data-mode="ai" aria-pressed="false">With an AI assistant</button>
+      </div>
+    </div>
+    <ol class="j-steps" id="jSteps"></ol>
+    <div class="j-total">
+      <div><span class="j-big" id="jTotal">46 hours</span><span class="j-sub" id="jSub">until the customer sees a price</span></div>
+      <p id="jNote">By then the customer has usually asked two competitors.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRINCIPLE -->
+<section class="wrap block" id="principle">
+  <div class="cols">
+    <div class="col-title"><h2>Start from where revenue leaks</h2></div>
+    <div class="col-body">
+      <p>Removing paper feels like progress, but it only digitises the old process. I would begin with a different question: where does this company lose money or growth each week? In a furniture business, it is almost always one of three places.</p>
+      <ul class="leaks">
+        <li><strong>Slow answers.</strong> Quotes and inquiries wait for someone who is in the workshop or on the floor. Speed of reply is one of the strongest predictors of who wins the order.</li>
+        <li><strong>Re-keying.</strong> The same order is typed from email to spreadsheet to production sheet to invoice. Each copy is a chance for an error, and errors become remakes and returns.</li>
+        <li><strong>Blind spots.</strong> Lead times, stock and customer history live in people’s heads, so planning and follow-up are guesses.</li>
+      </ul>
+      <p>AI helps with all three because they are reading, writing and lookup problems. Going paperless then happens as a side effect: once a workflow is digital and assisted, the paper step has no reason to exist, and the people using it are the ones who retire it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PLAN -->
+<section class="wrap block" id="plan">
+  <div class="cols">
+    <div class="col-title"><h2>The 90-day plan</h2><p class="muted">Pick a phase to see what happens, who is involved, and what has to be true before moving on.</p></div>
+    <div class="col-body">
+      <div class="tabs" role="tablist" aria-label="Phases" id="phaseTabs"></div>
+      <div class="phase" id="phasePanel" role="tabpanel" tabindex="0"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PEOPLE -->
+<section class="wrap block" id="people">
+  <div class="cols">
+    <div class="col-title"><h2>Bringing people with you</h2><p class="muted">Adoption fails more often than the technology does. The plan loops in the top, the middle and the people doing the work from the first week.</p></div>
+    <div class="col-body">
+      <div class="layers">
+        <article>
+          <h3>Owner and leadership</h3>
+          <p>Choose one number the program must move, such as quote response time or on-time delivery. Say plainly what AI is for here (growth and less grunt work) and what it is not. Use the tools themselves, visibly.</p>
+        </article>
+        <article>
+          <h3>Department leads</h3>
+          <p>Each lead owns one workflow in their area, with a champion on their team. They decide which manual steps stop, so change is not handed down from outside.</p>
+        </article>
+        <article>
+          <h3>People doing the work</h3>
+          <p>Ask them which task they dislike most. Start the pilot there. They are the first users, they review every output, and their feedback changes the tool every week.</p>
+        </article>
+      </div>
+      <p class="callout">A small AI council of five or six people from sales, shop floor, finance and leadership meets for 30 minutes a month. It reviews results, approves new use cases and hears concerns. It keeps the program from becoming one person’s project.</p>
+    </div>
+  </div>
+</section>
+
+<!-- USE CASES -->
+<section class="wrap block" id="usecases">
+  <div class="cols">
+    <div class="col-title"><h2>Pick a company type, see where to start</h2><p class="muted">The furniture case is the worked example. The same method ranks opportunities for other small companies: high revenue or time impact first, low effort first.</p></div>
+    <div class="col-body">
+      <div class="chips" role="group" aria-label="Company type" id="chips"></div>
+      <ol class="uc-list" id="ucList"></ol>
+      <p class="muted small">Ranked by impact minus effort. Scores are my starting estimates; the first 30 days replace them with real data.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULATOR -->
+<section class="wrap block" id="calc">
+  <div class="cols">
+    <div class="col-title"><h2>What could it be worth?</h2><p class="muted">Defaults describe a 100-person furniture maker with conservative assumptions. Change any number to match a real company.</p></div>
+    <div class="col-body">
+      <form class="calc" id="calcForm" onsubmit="return false">
+        <fieldset>
+          <legend>The business</legend>
+          <label>Employees <input type="number" id="employees" min="10" max="500" value="100"></label>
+          <label>Quote requests per month <input type="number" id="leads" min="0" value="400"></label>
+          <label>Average order value ($) <input type="number" id="aov" min="0" value="4500"></label>
+          <label>Current close rate (%) <input type="number" id="close" min="1" max="100" value="22"></label>
+          <label>Hours of manual admin per person per week <input type="number" id="hours" min="0" max="40" value="6"></label>
+          <label>Loaded cost per hour ($) <input type="number" id="rate" min="0" value="38"></label>
+          <label>Gross margin on extra sales (%) <input type="number" id="margin" min="1" max="100" value="35"></label>
+        </fieldset>
+        <fieldset>
+          <legend>Assumptions about the program</legend>
+          <label>Relative lift in close rate (%) <input type="range" id="lift" min="0" max="30" value="10"><output id="liftOut">10%</output></label>
+          <label>Share of admin hours automated (%) <input type="range" id="auto" min="0" max="60" value="25"><output id="autoOut">25%</output></label>
+          <label>Freed time that turns into useful work (%) <input type="range" id="real" min="0" max="100" value="50"><output id="realOut">50%</output></label>
+          <label>Year-one program cost ($) <input type="number" id="cost" min="0" value="120000"></label>
+        </fieldset>
+      </form>
+
+      <div class="results" aria-live="polite">
+        <div class="bars" id="bars"></div>
+        <dl class="kpis">
+          <div><dt>Year-one value</dt><dd id="rTotal">-</dd></div>
+          <div><dt>Net of program cost</dt><dd id="rNet">-</dd></div>
+          <div><dt>Payback</dt><dd id="rPay">-</dd></div>
+        </dl>
+      </div>
+      <p class="muted small">How it is calculated: extra revenue = quote requests × 12 × order value × close rate × lift. Profit counts only the margin on that revenue. Time value = employees × hours × 52 × share automated × share put to use × hourly cost. These are illustrative, not forecasts; the baseline phase exists to replace each input with a measured one.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GUARDRAILS -->
+<section class="wrap block" id="guardrails">
+  <div class="cols">
+    <div class="col-title"><h2>Guardrails that keep it safe</h2><p class="muted">A small company does not need a compliance department. It needs five habits, set up before the first pilot.</p></div>
+    <div class="col-body">
+      <dl class="rules">
+        <div><dt>A human approves anything customer-facing or involving money</dt><dd>AI drafts, a person sends. Approval can be loosened later for a workflow that has earned it.</dd></div>
+        <div><dt>Test on real history before going live</dt><dd>Run 50 past quotes through the assistant and compare with what was actually sent. Track accuracy weekly, and track how often people edit the draft.</dd></div>
+        <div><dt>Simple data rules</dt><dd>Green: product and price data. Amber: customer names and order history, business-tier tools only. Red: payment data and HR files stay out.</dd></div>
+        <div><dt>Keep a log</dt><dd>Every AI-generated output is stored with its inputs, so an error can be traced and fixed rather than argued about.</dd></div>
+        <div><dt>Keep the old way available for 30 days</dt><dd>Retire the paper step only when the new one has held up. Rollback is one decision, not a project.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- SCORECARD -->
+<section class="wrap block" id="score">
+  <div class="cols">
+    <div class="col-title"><h2>How we know it worked</h2></div>
+    <div class="col-body">
+      <div class="score">
+        <div><h3>Revenue</h3><ul><li>Time to first quote</li><li>Close rate on quotes</li><li>Repeat and referral orders</li></ul></div>
+        <div><h3>Efficiency</h3><ul><li>Touches per order</li><li>Order error and remake rate</li><li>Days to invoice</li></ul></div>
+        <div><h3>Adoption</h3><ul><li>Weekly active users by team</li><li>Tasks started in the tool, not around it</li><li>Paper steps retired</li></ul></div>
+        <div><h3>Trust</h3><ul><li>Share of drafts edited by people</li><li>Errors caught before sending</li><li>Staff confidence, asked quarterly</li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="wrap block" id="portfolio">
+  <div class="cols">
+    <div class="col-title"><h2>From one company to sixteen</h2></div>
+    <div class="col-body">
+      <p>The role posting describes working with the C-suites of 16 wholly owned portfolio companies. This plan is built to repeat: the 90 days, the people layers, the guardrails and the scorecard stay the same, and only the first workflow changes. Each company that finishes adds to a shared library of tested prompts, evaluation sets and integration code, so the next one starts further ahead.</p>
+      <div class="repeat">
+        <div><strong>Fixed</strong><span>Baseline, one pilot, human approval, weekly measurement, training on real work, monthly council.</span></div>
+        <div><strong>Varies</strong><span>Which workflow first, which systems it connects to, which data rules apply to that industry.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY ME -->
+<section class="wrap block" id="about">
+  <div class="cols">
+    <div class="col-title"><h2>Why I can run this</h2><p class="muted">Mahindra Guptha Kotha. M.S. Computer Science (AI/ML), SMU.</p></div>
+    <div class="col-body">
+      <table class="map">
+        <thead><tr><th scope="col">What the work needs</th><th scope="col">What I have done</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Replace manual processes with automation</th><td>Built full-stack platforms that replaced manual spreadsheets, and an MCP and RAG agent that automates platform operations (Secure Spot).</td></tr>
+          <tr><th scope="row">Turn paper and messy documents into data</th><td>Built a hybrid OCR pipeline with an AI check on the hardest sections of insurance forms (Eleviant). Migrated scattered file libraries into one database with SQL ETL (Hexagon).</td></tr>
+          <tr><th scope="row">Trust the output</th><td>Built hallucination interception with DeepEval and an observability pipeline that checks AI reasoning against database logs before data is committed.</td></tr>
+          <tr><th scope="row">Choose the approach with evidence</th><td>Ran a head-to-head test of classical ML, classifiers and RAG, and shipped the most accurate one to Kubernetes with CI/CD rules.</td></tr>
+          <tr><th scope="row">Handle sensitive data</th><td>Built a HIPAA-conscious RAG system with split vector stores and identifier scrubbing before any text reaches the model (LabGenie research).</td></tr>
+          <tr><th scope="row">Work with non-technical users</th><td>Ran clinical usability tests for patients with low tech literacy. Built search and PowerBI dashboards for engineering and commercial teams.</td></tr>
+        </tbody>
+      </table>
+      <p class="contact">Email <a href="mailto:mahikotha22@gmail.com">mahikotha22@gmail.com</a> · GitHub <a href="https://github.com/mmm-byte">mmm-byte</a> · LinkedIn <a href="https://www.linkedin.com/in/mahindra-guptha-kotha">mahindra-guptha-kotha</a></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap foot"><p>An independent concept prepared for a job conversation. Figures in the calculator are illustrative assumptions, not predictions.</p></footer>
+
+<script src="app.js"></script>
+</body>
+</html>
