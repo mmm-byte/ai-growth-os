@@ -1,13 +1,19 @@
 # Interview answer: "Lead a 100-person company into AI so revenue grows"
 
-## 60-second spoken version
-"I'd start by finding where the company loses revenue or capacity, not by removing paper. In a furniture business that might be slow quotes, re-typing orders between systems, and lead times that live in people's heads; in another company it could be proposals, customer support, order entry, billing, or scheduling. In the first 30 days I'd interview people at every level, follow one workflow from request to outcome, and write down three baseline numbers.
+## 30-second version
+"I would not begin by removing paper or buying a chatbot. I would find where the company is losing revenue, time, or customer trust; baseline that workflow; and choose one high-impact process with the people who own it. I would use AI to assist first—draft, classify, retrieve, or recommend—with a human approving outputs. I would test it on historical work, measure a business result for three weeks, train the team, add guardrails, and then repeat the playbook across the next workflows. Furniture might start with quoting; another company might start with proposals, support, order entry, or scheduling."
 
-Then I'd pick one high-impact workflow and pilot it with five to eight of the people who do it, with a human approving every output. For furniture that might be quoting; for a services firm it might be proposals or meeting follow-up. I'd test it on representative past cases first. The paper step gets retired once the new way has held up for a few weeks, so going paperless is a result, not step one.
+## 60-second version
+"I would start by finding where the company loses revenue or capacity, not by removing paper. In the first 30 days I would interview leadership, department leads, and the people doing the work; follow one workflow from request to outcome; and baseline response time, conversion, cycle time, errors, or capacity. Then I would choose one workflow and pilot it with five to eight users. I would use the lightest effective AI pattern—drafting, classification, RAG search, structured extraction, or an agent connected through APIs/MCP—with a human approving every output. I would test it on representative historical cases, log outputs and edits, keep the old process available, and review the business metric weekly. Once it works, I would train champions, tighten permissions and evaluations, and repeat the method. Furniture might start with quoting; another company might start with proposals, support, order entry, billing, or scheduling."
 
-On people: the owner picks the one metric and uses the tools visibly, each department lead owns one workflow, and the people doing the work choose the pilot because it's the task they dislike most. A small AI council meets monthly. From day 60 to 90 I'd add two more workflows, train on people's real work, and keep a scorecard everyone can see. And the same plan repeats across companies: the baseline, supervised pilot, guardrails, scorecard, and training stay consistent; only the first workflow, systems, and metric change."
+## AI skills and tools I would bring
+- **Workflow discovery:** process mapping, baseline metrics, value/effort/risk scoring, stakeholder adoption.
+- **AI patterns:** prompt design, structured outputs, RAG, embeddings/vector search, OCR/document extraction, classification, summarization, and agents.
+- **Integration:** Python, SQL, APIs, webhooks, MCP, Docker, cloud deployment, and CI/CD.
+- **Reliability:** historical eval sets, DeepEval, hallucination checks, observability, audit logs, permissions, and rollback.
+- **Delivery model:** buy/configure first; build custom only when integration, accuracy, or security requires it.
 
-## What to say about your first answer
+## How to correct my first answer
 Keep it honest: "What I said first was the right instinct on people, looping in top and bottom. I'd add that I'd begin with revenue leaks and let paper removal follow."
 
 ## Likely follow-ups
